@@ -36,21 +36,21 @@ function GetPartTypes() {
 //     return $result;
 // }
 
-function GetPartIndexes($part) {
-    global $mysqli;
+// function GetPartIndexes($part) {
+//     global $mysqli;
 
-    // prepare and bind
-    $stmt = $mysqli->prepare("SELECT part_display_colums.Display_string, CONCAT(display_colums.Data_type, part_display_colums.Column_id) AS `Column`, LOWER(REPLACE(part_display_colums.Display_string, ' ', '_')) AS `Col_name` FROM part_display_colums INNER JOIN display_colums ON part_display_colums.Display_string = display_colums.id WHERE Part_type = ?;");
+//     // prepare and bind
+//     $stmt = $mysqli->prepare("SELECT part_display_colums.Display_string, CONCAT(display_colums.Data_type, part_display_colums.Column_id) AS `Column`, LOWER(REPLACE(part_display_colums.Display_string, ' ', '_')) AS `Col_name` FROM part_display_colums INNER JOIN display_colums ON part_display_colums.Display_string = display_colums.id WHERE Part_type = ?;");
 
-    $stmt->bind_param("s", $part);
-    $stmt->execute();
-    // set parameters and execute
+//     $stmt->bind_param("s", $part);
+//     $stmt->execute();
+//     // set parameters and execute
     
-    $result = $stmt->get_result();
-    $data = $result->fetch_all(MYSQLI_ASSOC);
+//     $result = $stmt->get_result();
+//     $data = $result->fetch_all(MYSQLI_ASSOC);
 
-    return $data;
-}
+//     return $data;
+// }
 
 // function DistinctColData($part, $col) {
 //     $stmt = $mysqli->prepare("SELECT Display_columns FROM part_display_colums WHERE Part_type = ?;");

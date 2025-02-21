@@ -1,4 +1,5 @@
 @import './base.css';
+@import './darkmode_btn.css';
 
 #app {
   max-width: 1280px;

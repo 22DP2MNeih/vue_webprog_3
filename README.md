@@ -16,3 +16,9 @@ Programmu veidošu kā tīmekļa vietni ar interfeisu, kas ir ļoti spējīgs un
 
 ### Lietotāji:
 1. Mehāniķi varēs ātri atrast nepieciešamās detaļas, salīdzināt to cenas.
+
+
+## Ko pa šo laiku izdariju
+1. Sāku no jauna tāpēc ka iepriekš viss html bija php failos no vecajiem failiem saglabāju tikai php pieprasījumus toss vēlāk varēs pārveidot lai strādātu ar AJAX vai kaut ko tamlīdzīgu.
+2. Pārvidoju par Vue projektu.
+3. Sāku domāt kā strukturēt mājaslapu, lai strādātu ar Vue.
