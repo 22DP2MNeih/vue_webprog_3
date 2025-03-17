@@ -8,14 +8,11 @@ import PartSearch from '@/components/PartSearch.vue'
     <Navbar />
   </header>
   <main>
-    <PartSearch.vue />
+    <PartSearch />
     this is mehanic page
   </main>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
+
 </style>

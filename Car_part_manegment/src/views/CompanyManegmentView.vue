@@ -8,12 +8,10 @@ import Navbar from '@/components/Navbar.vue'
   </header>
   <main>
     this is company manegment
+    
   </main>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
+
 </style>

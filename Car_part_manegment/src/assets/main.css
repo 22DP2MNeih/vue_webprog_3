@@ -6,3 +6,11 @@
   /* padding: 2rem; */
   font-weight: normal;
 }
+
+header {
+  line-height: 1.5;
+  max-height: 100vh;
+}
+body {
+  background-color: rgb(200, 200, 255);
+}
