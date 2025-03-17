@@ -1,11 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-// defineProps({
-//   aaa: {
-//     type: String,
-//     default: "home",
-//   },
-// })
+
 </script>
 
 <template>
